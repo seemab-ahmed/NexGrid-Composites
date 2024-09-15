@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engineering Site</title>
+    <!-- link font awsome -->
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- fonts Links here  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- slick style sheet link here -->
+    <link rel="stylesheet" href="./css/slick-theme.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <!-- link style sheet here  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <!-- GSAP Core -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <!-- ScrollTrigger Plugin (optional, for scroll-based animations) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+
+</head>
+
+<body>
+    <!-- header starts here  -->
+    <header class="header">
+        <div class="container">
+            <a class="logo" href="./index.html">LOGO</a>
+            <div class="menu-icon">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <div class="toggle-btn"></div>
+            <nav>
+                <ul>
+                    <li><a href="./index.html" class="nav-link-item">Home</a></li>
+                    <li><a href="./about.html" class="nav-link-item">About</a></li>
+                    <li><a href="#news-blogs" class="nav-link-item">Blogs</a></li>
+                    <li><a href="#news-blogs" class="nav-link-item">News</a></li>
+                    <li><a href="./contact.html" class="nav-link-item">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Hero section starts here  -->
+    <section class="contact-banner">
+        <div class="container">
+            <span class="pre-header">We’re Here to Help</span>
+            <h1>Get in Touch with Us</h1>
+            <p class="banner-detail">
+                For inquiries, support, or feedback, contact us anytime. Our team is ready to assist you.
+            </p>
+            <a href="#" class="primary-btn">Contact Us</a>
+        </div>
+    </section>
+    <!-- transform section starts  here  -->
+    <section class="transform">
+        <div class="container">
+            <div class="transform-inner">
+                <div class="transform-col-left">
+                    <h2 class="secondry-heading">Get In Touch</h2>
+                   <div class="contact-map-inner">
+                    <div class="icon-row">
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="tel:+1234566789">+123456789</a>
+                    </div>
+                    <div class="icon-row">
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="mailto:test2test.com">test@test.com</a>
+                    </div>
+                    <div class="icon-row">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <a href="https://maps.app.goo.gl/UdaVp2rdbuHs5B8P7">1234 Aviation Way, Suite 567</a>
+                    </div>
+                   </div>
+                </div>
+                <div class="map-wrapper">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5932.036359703906!2d-87.91152268550469!3d41.97841944306632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fb4270a169997%3A0xd6bf59f7be87eea6!2sUnited%20Airlines!5e0!3m2!1sen!2s!4v1725825373576!5m2!1sen!2s"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="form-section">
+        <div class="container">
+            <h2 class="secondry-heading">Contact Form</h2>
+            <form action="post" class="cnt-form">
+                <div class="form-row">
+                    <div class="form-input-group">
+                        <label for="" class="form-label"> First Name</label>
+                        <input class="input-field" name="first-name" data-name="first name" placeholder="" type="text" id="first-name" required="">
+                    </div>
+                    <div class="form-input-group">
+                        <label for="last-name" class="form-label">Last Name</label>
+                        <input class="input-field" name="last_name" id="last-name" placeholder="" type="text" required="">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-input-group">
+                        <label for="email" class="form-label">E-mail Adress</label>
+                        <input class="input-field" name="email" id="email" placeholder="" type="email" required="">
+                    </div>
+                    <div class="form-input-group">
+                        <label for="password" class="form-label">Phone No</label>
+                        <input class="input-field" name="Phone Number" id="number" placeholder="" type="Phone Nmber" required="">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea name="massage" id="message" rows="6" class="input-field"></textarea>
+                </div>
+                <div class="btn-group">
+                    <button type="submit" class="secondry-btn">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- request section starts here  -->
+    <section class="request-demo">
+        <div class="container">
+            <div class="request-inner">
+                <div class="request-left">
+                    <span class="pre-header">Ready For Take Off?</span>
+                    <h2 class="secondry-heading">Request a Quote or Information</h2>
+                </div>
+                <div class="request-right">
+                    <p class="default-text">
+                        Fill out the form below to request a quote or receive more information about our aircraft.
+                    </p>
+                    <form class="form-signup" id="request-form" name="request-form" data-name="Requst Form" method="get"
+                        aria-label="Request Form">
+                        <input class="input-field" name="email" id="email" placeholder="Your Email Address" type="email"
+                            required="">
+                        <button class="primary-btn">Submit Request</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="request-btm-img">
+            <img src="images/plane-side.png" alt="">
+        </div>
+    </section>
+    <!-- footer starts here -->
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <a href="#" class="logo">Logo</a>
+                <div class="footer-content">
+                    <div class="link-list">
+                        <h4>Product</h4>
+                        <ul class="footer-links">
+                            <li><a href="#">Overview</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Marketplace</a></li>
+                            <li><a href="#"> Features</a></li>
+                            <li><a href="#">Integrations</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-list">
+                        <h4>Company</h4>
+                        <ul class="footer-links">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#"> Blog</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-list social-list">
+                        <h4>Social</h4>
+                        <ul class="footer-links">
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                    <span>Facebook</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-instagram"></i>
+                                    <span>Instagram</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-twitter"></i>
+                                    <span>Twitter</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                    <span>LinkedIn</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="link-list connect-list">
+                        <h4>Connect</h4>
+                        <ul class="footer-links">
+                            <li>
+                                <a href="tel:+123456789">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <span>+123456789</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:test@test.gmail.com">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <span>test@test.gmail.com</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <span>1234 Aviation Way, Suite 567</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-btm">
+            <span>© 2024 Company. All rights reserved.</span>
+        </div>
+    </footer>
+    <!-- script links here  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/code.jquery.com_jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/animation.js"></script>
+</body>
+
+</html>

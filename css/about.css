@@ -1,0 +1,158 @@
+.about-banner {
+    background: url(../images/about-bg.jpg) no-repeat center;
+    background-size: cover;
+    padding: 240px 0 160px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.about-content h1 {
+    text-align: center;
+}
+.about-content .banner-detail {
+    text-align: center;
+    max-width: 100%;
+}
+.team {
+    background-color: #131313;
+    padding: 100px 0;
+}
+.team .secondry-heading, .mission-row .secondry-heading {
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(258deg, #f8e231 10%, #f06735);
+    background-clip: text;
+}
+.team-row {
+    display: flex;
+    justify-content:space-between ;
+    align-items: stretch;
+    margin-top: 40px;
+}
+.team-card {
+    width: 49%;
+    background-color: #fff;
+    border-radius: 18px;
+    overflow: hidden;
+    display: flex;align-items: stretch;
+
+}
+.team-img-wrapper {
+    width: 40%;
+    min-height: 300px;
+    overflow: hidden;
+}
+.team-img-wrapper img {
+    height: 100%;
+    transition: all 0.6s ease-in-out;
+}
+.team-img-wrapper img:hover {
+    transform: scale(1.2);
+}
+.team-card-detail {
+    padding: 30px;
+    width: 60%;
+}
+.team-card-tittle {
+    font-size: 24px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+.team-rank {
+    font-size: 18px;
+    color: #f06735;
+}
+.card-para {
+    color: #131313;
+    font-size: 16px;
+    line-height: 1.4;
+    margin: 10px 0;
+}
+.our-fleet {
+    padding: 100px 0;
+    overflow: hidden;
+}
+.fleet-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.mission-row {
+    padding: 100px 0;
+    background-color: #000;
+    overflow: hidden;
+}
+.mission-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mission-left {
+    width: 50%;
+}
+.fleet-left {
+    width: 50%;
+}
+@media screen and (max-width: 767px) {
+    .about-banner {
+        padding: 140px 0 50px;
+    }
+    .mission-left {
+        width: 100%;
+    }
+    .mission-inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .fleet-left {
+        width: 100%;
+    }
+    .fleet-inner {
+        flex-direction: column;
+    }
+    .fleet-left {
+        width: 100%;
+    }
+    .our-fleet {
+        padding: 50px 0;
+    }
+    .team {
+        padding: 50px 0;
+    }
+    .team-card {
+        width: 100%;
+        flex-direction: column;
+    }
+    .team-row {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .team-img-wrapper {
+        width: 100%;
+        height: 225px;
+        min-height: auto;
+    }
+    .team-card-detail {
+        padding: 20px;
+        width: 100%;
+    }
+    .card-para {
+        font-size: 14px;
+    }
+    .team-card-tittle {
+        font-size: 20px;
+    }
+    .team-rank {
+        font-size: 16px;
+    }
+    .mission-row {
+        padding: 50px 0;
+    }
+}
